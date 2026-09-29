@@ -26,34 +26,11 @@
   --danger-bg: rgba(217, 67, 90, 0.08);
 
   font: 16px/1.5 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  color-scheme: light dark;
+  color-scheme: light;
   color: var(--text);
   background: var(--backdrop);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #a3a3bf;
-    --text-muted: #8a8aa8;
-    --text-h: #ececf6;
-    --backdrop: #262545;
-    --shell: #16161f;
-    --sidebar: #1b1b27;
-    --card: #1f1f2d;
-    --card-hover: #262638;
-    --border: #2a2a3c;
-    --shadow: 0 40px 80px -30px rgba(0, 0, 0, 0.7);
-    --accent: #9d9cf0;
-    --accent-strong: #b3b2fa;
-    --accent-bg: rgba(157, 156, 240, 0.14);
-    --accent-border: rgba(157, 156, 240, 0.35);
-    --on-accent: #16152e;
-    --highlight: #d9b94f;
-    --danger: #f2788a;
-    --danger-bg: rgba(242, 120, 138, 0.12);
-  }
 }
 
 *,
